@@ -19,10 +19,11 @@ a {
 }
 body {
     font-family: 'Pretendard-Regular';
-    height: 6000px;
+    height: 100vh;
 }
 .header {
     display: flex;
+    
     background-color: white;
     height: 100px;
     padding: 0 230px; 
@@ -38,16 +39,73 @@ body {
     top: 20px;
     left: 310px;
 }
+
 .header .nav {
     margin: 0 auto;
 }
-.header .nav ul {
+.header .nav .gnb {
     display: flex;
     gap: 80px;
-    line-height: 100px;
+    
+    line-height: 50px;
     font-size: 18px;
     font-weight: bold;
 }
+
+.header .depth01 {
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    justify-content: center;
+}
+
+.header .depth02 {
+    width: 100%;
+    display: none;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    
+    
+   
+}
+.header li:hover .depth02 {
+    display: block;
+    
+}
+ 
+.header .gnb > li .depth02 li {
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+    /* padding: 0px 0; */
+}
+
+.header .gnb > li .depth01:hover  {
+    color: green;
+}
+
+
+.header .gnb > li .depth02 li:hover {
+    background-color: yellow;
+    color: #089608d7;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header .sns img {
     margin-top: 25px;
 }
@@ -414,3 +472,155 @@ body {
 }
 
 
+.section_6 {
+    width: 1920px;
+    height: 439px;
+    background-color: #f3f3f3;
+    margin: 150px auto;
+    
+    
+}
+.section_6 .section_06_1 {
+   display: flex;
+   height: 439px;
+   align-items: center;
+   justify-content: center;
+   gap: 137px;
+   
+   
+}
+.section_6 .section_06_1 .text_06_1 h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 24px;
+   
+}
+.section_6 .section_06_1 .text_06_1 p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+
+}
+.section_6 .section_06_1 .text_06_1 p:nth-child(3) {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 29px;
+    
+}
+.section_6 .section_06_1 .text_06_1 p:nth-child(4) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8f949e;
+}
+
+
+.section_6 .section_06_1 .text_06_1 .item_all {
+    display: flex;
+    
+}
+.section_6 .section_06_1 .text_06_1  .item001 {
+    
+    margin-top: 26px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #4c4c4c;
+    
+}
+
+.section_6 .section_06_1 .text_06_1  .item001:nth-child(2) {
+    margin-left: 29px;
+    
+}
+.section_6 .section_06_1 .text_06_1  .item001:nth-child(3) {
+    margin-left: 29px;
+}
+.section_6 .section_06_1 .text_06_1  .item001:nth-child(4) {
+    margin-left: 29px;
+}
+.section_6 .section_06_1 .text_06_1 {
+    position: relative;
+}
+
+.section_6 .section_06_1 .logo_img {
+    position: absolute;
+    top: -20px;
+    left: 75px;
+}
+
+
+
+
+.section_6 .section_06_1  .fa-brands {
+    position: absolute;
+    color: white;
+    top: 225px;
+    left: 8px;
+}
+.section_6 .section_06_1 .fa-facebook {
+    position: absolute;
+    top: 225px;
+    left: 71px;
+}
+
+.section_6 .section_06_1 .fa-youtube {
+    position: absolute;
+    top: 225px;
+    left: 134px;
+}
+.section_6 .section_06_1 .fa-blog {
+    position: absolute;
+    color: white;
+    top: 225px;
+    left: 200px;
+}
+.section_6 .section_06_1 .text_06_2 h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_2 p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 114px;
+}
+.section_6 .section_06_1 .text_06_3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.section_6 .section_06_1 .text_06_3 p:nth-child(1) {
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_3 p:nth-child(2) {
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_3 p:nth-child(3) {
+    margin-bottom: 67px;
+}
+.section_6 .section_06_1 .text_06_4 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.section_6 .section_06_1 .text_06_4 p:nth-child(1) {
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_4 p:nth-child(2) {
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_4 p:nth-child(3) {
+    line-height: 24px;
+    margin-bottom: 40px;
+    
+}
+
+.section_6 .section_06_1 .text_06_5 {
+    font-size: 18px;
+}
+.section_6 .section_06_1 .text_06_5 h5 {
+    color: #979ca5;
+    margin-bottom: 26px;
+}
+.section_6 .section_06_1 .text_06_5 p {
+    font-weight: bold;
+    margin-bottom: 114px;
+}
